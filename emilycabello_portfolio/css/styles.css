@@ -1,0 +1,347 @@
+
+html {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+body {
+	background-color: rgb(220, 231, 255);
+}
+
+*{
+	margin: 0;
+}
+
+
+/*==============typography================*/
+
+
+.txt-bio {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    line-height: 1.3;
+	color: black;
+	text-align:justify;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: 200px;
+	
+}
+
+
+  
+/* =====title*/ 
+
+h1 {
+	color: white;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 200%;
+	font-size: 40px;
+	text-align:center;
+	margin-top: -55px;
+
+
+	
+
+}
+
+h2 {
+	color: #6d667c;
+	font-family: 'Comfortaa';
+	font-size: 30px;
+	line-height: 6%;
+	margin-left: 380px;
+}
+
+h3 {
+    color:#6d667c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+	text-align:left;
+	padding-top: 30px;
+
+}
+
+
+h4{ 
+	color:#6d667c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+	text-align:left;
+	padding-top: 30px;
+	text-decoration: none;
+    
+}
+
+h5 {
+    color:#6d667c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+	text-align:left;
+	padding-top: 40px;
+	margin-left: 0;
+	padding-bottom: 25px;
+
+}
+
+h6 {
+	color: #6d667c;
+	font-family: 'Comfortaa';
+	font-size: 40px;
+	line-height: 6%;
+	margin-left:-50px;
+	text-align:center;
+}
+
+/*==============sidenav================*/
+
+.sidenav {
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	width: 220px;
+	position:fixed;
+	margin-top:0;
+
+}
+
+
+
+.sidenav a {
+	position:relative; 
+	left: -160px; 
+	width: 190px; 
+	transition: 0.3s; 
+	padding-top: 140px;
+	padding-bottom: 100px;
+	padding-right: 20px;
+	padding-left: 30px;
+	text-decoration: none; 
+	font-size: 20px; 
+	color: white; 
+	background-color: #6d667c;
+	display:inline-block;
+	white-space:nowrap;
+	text-align: right;
+	
+} 
+
+.sidenav span {
+	padding-left: 20px;
+	padding-right: 10px;
+	float: right;
+}
+
+.sidenav a:hover {
+	left: 0; 
+	color: white;
+	background-color: #6d667c;
+	
+}
+
+
+/* ==============spacers==============*/
+
+.spacer {
+	height: 10%;
+	width: 80%;
+	background-color: #ddd;
+	padding: 40px;
+	position: relative;
+
+}
+
+/* ==============flexbox==============*/
+
+
+.flx-even, .flx-small {
+	display: flex;
+	flex-direction:row;
+	position:absolute;
+	margin-top: 50px;
+	margin-left: 145px;
+	width: 1170px;
+	height: 650px; 
+	padding-bottom: 30px;
+	padding-left:80px;
+}
+
+.flx-melvs {
+	display: flex;
+	flex-direction:row;
+	position:absolute;
+	margin-top: 50px;
+	margin-left: 165px;
+	padding-bottom: 20px;
+	padding-left:80px;
+	align-content: center;
+	font-family: 'Comfortaa';
+    font-size: 18 px;
+    line-height: 1.3;
+	color: black;
+	display:inline;
+}
+
+.flx-music {
+	display: flex;
+	flex-direction:row;
+	position:absolute;
+	margin-top: 350px;
+	margin-left: 165px;
+	padding-bottom: 20px;
+	padding-left:80px;
+	align-content: center;
+	font-family: 'Comfortaa';
+    font-size: 18 px;
+    line-height: 1.3;
+	color: black;
+	display:inline;
+	text-decoration: none;
+}
+/* ------------ CONTENT BOXES ----------------- */
+
+.box-title {
+	max-height: fit-content;
+	text-align: left;
+	padding:0;
+	vertical-align: center;
+	margin-right: 400px;
+	margin-left: 400px;
+	
+}
+
+.box-norm {
+	max-height: fit-content;
+	text-align: center;
+	vertical-align: center;
+}
+
+.box-norm#bio {
+	margin-left: -70px;
+
+}
+
+.box-norm#inspiration {
+	max-width: 100%;
+	height:100%; 
+}
+
+.box-norm#bub{
+	flex-basis: 250px;
+	padding: 30px;
+	flex-wrap:wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+.box-photo {
+	
+	margin-top: 50px;
+	width: 600px;
+	height: 600px;
+	margin-left: px;
+	margin-top: 80px;
+}
+
+.box-photo img {
+	
+	object-fit:cover;
+	max-height:550px;
+	max-width: 550px;
+
+}
+
+.box-small {
+	
+	margin: 0px;
+	list-style: none;
+	white-space: nowrap;
+	list-style: none;
+	display: inline;
+
+}
+
+.box-small img {
+	object-fit:cover;
+	width:200px;
+	height: 200px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom: 25px;
+	vertical-align:left;
+}
+
+.bigbox ul{
+	white-space: nowrap;
+	list-style:none;
+	display: inline-flex;
+	width: 100%;
+}
+
+.box-inspo ul {
+	font-family: 'Comfortaa';
+    font-size: 18 px;
+    line-height: 1.3;
+	color: black;
+	max-width: 600px;
+}
+
+.giffy{
+	float: right;
+	margin-right: 270px;
+	margin-top: 475px;
+
+}
+
+.giffy img {
+	width: 150px;
+	height: auto;
+}
+
+header {
+	background-color: #6d667c;
+	width: 100%;
+	height: 90px;
+	color: white;
+	position:relative;
+
+}
+
+header img {
+	width: 50px;
+	margin-left: 12px;
+	margin-top: 20px;
+}
+
+
+#main {
+	margin-bottom: 50px; /* is equal to the footer height - change it as you need, in both common and your mobile tab*/
+  }
+  
+
+  #page-container {
+	position: relative;
+	min-height: 100vh;
+  }
+  
+  #content-wrap {
+	padding-bottom: 50px;   
+  }
+  
+  #footer {
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;           
+ 	text-align: center; 
+	left: 50px;	
+	padding-top: 15px;
+	padding-bottom:10px;
+	color:#6d667c;
+	width: 100%;
+	font-family: Comfortaa;
+	text-decoration: none;
+	font-size: 20px; 
+	margin-left:500px;
+}
